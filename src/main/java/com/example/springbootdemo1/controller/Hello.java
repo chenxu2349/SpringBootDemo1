@@ -15,6 +15,6 @@ public class Hello {
     @GetMapping("/hello")
     @ResponseBody
     public String hello() {
-        return "hello jenkins";
+        return "hello jenkins 111";
     }
 }
